@@ -2,6 +2,13 @@
 
 https://github.com/joshka/brew-cask-zsh-completions
 
+## Deprecation
+
+**Note:** This repo is now deprecated given that these changes were merged into Homebrew
+at https://github.com/Homebrew/brew/pull/936.
+
+## Overview
+
 This script is a fork of the Zsh [Homebrew Cask completion plugin](https://github.com/robbyrussell/oh-my-zsh/blob/master/plugins/brew-cask/brew-cask.plugin.zsh)
 from Oh My Zsh. It solves the following issues with the original code:
 
