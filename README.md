@@ -21,19 +21,6 @@ merge [brew#407](https://github.com/Homebrew/brew/pull/407) before it will work.
 
 ## Installation
 
-### Install with [Homebrew Completions](https://github.com/Homebrew/homebrew-completions)
-
-This is the easiest suggested installation method.
-
-```shell
-$ brew tap homebrew/completions
-$ brew install brew-cask-zsh-completion
-```
-
-For more info see the [Homebrew Completions README](https://github.com/Homebrew/homebrew-completions/blob/master/README.md)
-
-### Install manually
-
 Symlink or copy the completion script to a directory in your fpath. Homebrew
 installs its completions into `$(brew --prefix)/share/zsh/site-functions` which
 is in the default fpath for the version of zsh installed by Homebrew.
